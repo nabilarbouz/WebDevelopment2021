@@ -1,0 +1,12 @@
+h1 {
+  color: blue;
+}
+
+.secondPara {
+  border: 5px solid blue;
+  color: rgb(255, 122, 142) rgba(250, 23, 214, 0.2);
+}
+
+a.secondPara {
+  color: rgb(255, 122, 142) rgba(250, 23, 214, 0.2);
+}
