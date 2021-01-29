@@ -1,0 +1,16 @@
+.headerDiv {
+  padding: 32px;
+}
+
+.projectCard {
+  margin: 16px;
+}
+
+.card-img-top {
+  width: 100%;
+  object-fit: cover;
+}
+
+.card-img-top {
+  padding: 8px;
+}
