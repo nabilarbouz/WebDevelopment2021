@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Nabil Arbouz</title>
+    <meta name="description" content="Information about Nabil Arbouz" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../CSSfiles/styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <h2 class="navbar-brand">Nabil Arbouz</h2>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="navbar-nav">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="../index.html"
+                  >Home
+                </a>
+              </li>
+              <li class="navbar-nav">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="https://github.com/nabilarbouz"
+                  >Github
+                </a>
+              </li>
+              <li class="navbar-nav">
+                <a class="nav-link active" aria-current="page" href="about.html"
+                  >About Me
+                </a>
+              </li>
+              <li class="navbar-nav">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="contact.html"
+                  >Contact
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <div class="container">
+        <div class="row justify-content-lg-center">
+          <h1>A little about me</h1>
+        </div>
+      </div>
+      <div class="container">
+        <div
+          id="carouselExampleDark"
+          class="carousel carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleDark"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleDark"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleDark"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div
+              class="carousel-item active carouselImage"
+              data-bs-interval="10000"
+            >
+              <img
+                src="../assests/business.jpg"
+                class="d-block w-100"
+                alt="Business Room"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5 id="carousel1Title">Business Experience</h5>
+                <p id="carousel1Description">
+                  1.5 years Sales. 1.5 years Operation. 4 years Customer
+                  Service.
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+              <img
+                src="../assests/nature.jpg"
+                class="d-block w-100"
+                alt="Yosemite forest"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5 id="carousel2Title">Hobbies</h5>
+                <p id="carousel2Description">My Hobbies</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="../assests/music.jpg"
+                class="d-block w-100"
+                alt="Music studio"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5 id="carousel3Title"></h5>
+                <p id="carousel3Description"></p>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </main>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+      crossorigin="anonymous"
+    ></script>
+    <script src="../jsFiles/about.js" async defer></script>
+  </body>
+</html>

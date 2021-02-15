@@ -1,0 +1,34 @@
+#headerDiv {
+  margin: 8px;
+  max-width: 32rem;
+}
+
+.bottom-container {
+  margin-bottom: 32px;
+}
+
+.carouselImage {
+  max-width: 100%;
+}
+
+.carousel-caption h5 {
+  color: white;
+}
+
+.carousel-caption p {
+  color: white;
+}
+
+.myTextDescriptions {
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+
+h3 {
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+
+#contactPageTitle {
+  font-weight: 300;
+}

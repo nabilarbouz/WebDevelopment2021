@@ -1,0 +1,18 @@
+{
+  "name": "project1",
+  "version": "1.0.0",
+  "description": "Portfolio project ",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon ./start.js"
+  },
+  "author": "Nabil Arbouz",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^7.20.0",
+    "eslint-config-prettier": "^7.2.0",
+    "nodemon": "^2.0.7",
+    "prettier": "^2.2.1"
+  }
+}
